@@ -1,0 +1,123 @@
+body {
+  padding: 0;
+  margin: 0;
+  font-family: sans-serif;
+  background-image: url("../profile_1.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.navbar {
+  background-color: rgb(0, 0, 0);
+  padding: 0.5% 0;
+  font-size: 5px;
+}
+
+.navbar-brand {
+  min-height: 55px;
+  padding: 0 15px 5px;
+}
+
+.navbar-default .navbar-nav li {
+  display: block;
+}
+
+.navbar-default .navbar-nav li a {
+  color: #23415c;
+}
+
+.navbar-default .navbar-nav li a:hover, .navbar-default .navbar-nav li a.active {
+  color: #23415c;
+}
+
+.navbar-default .navbar-nav li a {
+  display: block;
+  width: 100%;
+  background-color: rgb(0, 0, 0);
+  font-size: 30px;
+  font-family: 'Dongle', sans-serif;
+  border-bottom: 2px solid transparent;
+  text-transform: uppercase;
+  font-weight: bold;
+  padding: 18px 20px;
+  color: white;
+}
+
+.navbar-default .navbar-nav li a.active {
+  border-bottom: 2px solid #355681;
+  color: #355681;
+}
+
+.navbar-default .navbar-nav li a:hover, .navbar-default .navbar-nav li a.active {
+  border-bottom: 2px solid #355681;
+  border-width: thin;
+  color: #355681;
+}
+
+.glyphicon.glyphicon-cog {
+  font-size: 25px;
+}
+
+input {
+  text-align: left;
+}
+
+#profile-body {
+  margin-top: 160px;
+}
+
+h4 {
+  color: white;
+}
+
+.container {
+  box-shadow: red 5px 5px 15px 25px;
+}
+
+.panel-heading {
+  font-size: 22px;
+}
+
+.welcome-profile {
+  text-align: right;
+  color: white;
+}
+
+.glyphicon.glyphicon-cog {
+  font-size: 15px;
+}
+
+.copyright {
+  margin-top: 180px;
+  color: #FFF;
+  background-color: #23415C;
+  padding: 0.5% 0.5% 0.5% 0.5%;
+  text-align: center;
+  font-weight: bold;
+}
+
+.blinking {
+  animation: blinkingText 1s infinite;
+}
+
+@keyframes blinkingText {
+  0% {
+    color: #23415C;
+  }
+
+  49% {
+    color: transparent;
+  }
+
+  50% {
+    color: transparent;
+  }
+
+  99% {
+    color: transparent;
+  }
+
+  100% {
+    color: green;
+  }
+}
